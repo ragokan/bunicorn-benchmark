@@ -1,0 +1,18 @@
+{
+    "name": "bench",
+    "module": "index.ts",
+    "type": "module",
+    "devDependencies": {
+        "@types/node": "^20.8.3",
+        "bun-types": "latest",
+        "quickchart-js": "latest"
+    },
+    "scripts": {
+        "bench": "bun index.ts && cat results/index.md",
+        "ins": "bun scripts/install.ts",
+        "start": "export PATH=\"$HOME/go/bin:$PATH\" && bun ins && bun bench && bun chart",
+        "test-bench": "bun index.ts test",
+        "chart": "bun scripts/chart.ts"
+    },
+    "dependencies": {}
+}

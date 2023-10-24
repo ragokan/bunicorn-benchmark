@@ -1,6 +1,6 @@
-Bun: 1.0.6
+Bun: 1.0.7
 
-Tested at: 17:53, October 18th, 2023
+Tested at: 15:13, October 24th, 2023
 
 ## OS Details
 - Cores: 12
@@ -11,7 +11,7 @@ Tested at: 17:53, October 18th, 2023
 ## Tests
 ### GET `/`
 Should return `Hi` as a response.
-### GET `/id/53?name=p6A`
+### GET `/id/84?name=SMg`
 Should return the `id` parameter value and the query value, for example `1 a` when the request path is `/id/1?name=a`.
 ### GET `/api/js`
 Should return a response with `404` status code.
@@ -24,9 +24,9 @@ Return the request body with `Content-Type` set to `application/json`.
 - Results are measured in requests per second.
 
 ## Results
-| Name | Average | GET `/` | GET `/id/92?name=QHc` | GET `/api/js` | POST `/api/json` |
+| Name | Average | GET `/` | GET `/id/77?name=yzN` | GET `/api/js` | POST `/api/json` |
 |  :---: | :---: | :---: | :---: | :---: | :---: |
-| [Bunicorn 0.0.10](/results/main/Bunicorn) | 85977.58 | 85468.24 | 87349.40 | 86833.95 | 84258.73 |
-| [RawBun 100.0.0](/results/main/RawBun) | 83996.48 | 86949.35 | 83664.37 | 86077.60 | 79294.59 |
-| [Hono 3.7.2](/results/main/Hono) | 83603.11 | 85848.63 | 83114.43 | 84393.96 | 81055.42 |
-| [Elysia 0.7.15](/results/main/Elysia) | 82055.08 | 84941.05 | 81298.26 | 81093.59 | 80887.43 |
+| [Bunicorn 0.0.18](/results/main/Bunicorn) | 79204.25 | 76982.94 | 81068.13 | 81378.43 | 77387.51 |
+| [Hono 3.7.2](/results/main/Hono) | 76710.43 | 75398.62 | 79552.49 | 79567.03 | 72323.60 |
+| [Elysia 0.7.15](/results/main/Elysia) | 75583.11 | 75114.60 | 72507.34 | 75548.82 | 79161.67 |
+| [RawBun 100.0.0](/results/main/RawBun) | 74238.77 | 73922.38 | 74951.25 | 75539.43 | 72542.04 |

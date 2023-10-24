@@ -1,6 +1,6 @@
-Bunicorn x 85978 req/sec
-RawBun x 83996 req/sec
-Hono x 83603 req/sec
-Elysia x 82055 req/sec
+Bunicorn x 79204 req/sec
+Hono x 76710 req/sec
+Elysia x 75583 req/sec
+RawBun x 74239 req/sec
 
 Fastest is Bunicorn.

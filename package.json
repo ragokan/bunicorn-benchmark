@@ -10,7 +10,7 @@
     "scripts": {
         "bench": "bun index.ts && cat results/index.md",
         "ins": "bun scripts/install.ts",
-        "start": "export PATH=\"$HOME/go/bin:$PATH\" && bun ins && bun bench && bun chart",
+        "start": "bun ins && bun bench && bun chart",
         "test-bench": "bun index.ts test",
         "chart": "bun scripts/chart.ts"
     },
